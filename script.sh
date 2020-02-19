@@ -7,4 +7,4 @@ for i in {1..100}; do
         echo "$i is a ODD Numner except if it is zero"
     fi
 done
-#End the script...!!!
+#End the script by Sree....!!!
