@@ -9,3 +9,10 @@ for i in {1..100}; do
     fi
 done
 #End the script by Sree....!!!
+
+
+
+
+#This will give all nums from 1 to 100 By Windows User...!!
+#This will give all nums from 1 to 100 By Linux User
+
