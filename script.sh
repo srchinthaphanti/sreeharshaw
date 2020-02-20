@@ -8,6 +8,7 @@ for i in {1..100}; do
     func
 done
 
+#Created a test function
 func(){
     echo "This is a test function..!!"
 }
