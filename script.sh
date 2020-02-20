@@ -1,4 +1,9 @@
 #!/bin/bash
+func()
+{
+    echo "This is a test function for $i time..!!"
+}
+
 for i in {1..100}; do
     if [ $(expr $i % 2) -eq 0 ]; then
         echo "$i is a EVEN Number"
@@ -7,10 +12,3 @@ for i in {1..100}; do
     fi
     func
 done
-
-#Created a test function
-func(){
-    echo "This is a test function..!!"
-}
-
-
