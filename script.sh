@@ -8,6 +8,11 @@ func2()
    i=$(( $i + 10 ))
     echo "This is a test function for $i time..!!"
 }
+func3()
+{
+   i=$(( $i + 20 ))
+    echo "This is a test function for $i time..!!"
+}
 
 for i in {1..100}; do
     if [ $(expr $i % 2) -eq 0 ]; then
@@ -17,4 +22,5 @@ for i in {1..100}; do
     fi
     func
     func2
+    func3
 done
